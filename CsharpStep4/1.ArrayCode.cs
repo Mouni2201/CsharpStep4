@@ -23,7 +23,7 @@ namespace ArrayCode
             //3.boxing and unboxing
             //or no boxing
 
-            int third = arr2[0];
+            //int third = arr2[0];
 
             //4.Multidata types: can't create multiple data types
             int[] arr3 = new int[2];

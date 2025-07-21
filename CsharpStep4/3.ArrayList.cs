@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ArrayListExample
 {
@@ -27,8 +28,36 @@ namespace ArrayListExample
 
             //3.boxing or unboxing(required here)
 
-            //if we don't use conversion 
+            //if we don't use conversion that it is boxing
             int first = (int)arrayList[0];  //unboxing
+            string second = (string)arrayList[1];
+
+            //object obj =10;
+            //object obj1 = "afad";  //we can change like this
+
+            //4.Multiple datattypes are poosible
+            arrayList.Add(100);
+            arrayList.Add(80);
+            arrayList.Add("Hrello");
+            arrayList.Add(false);
+
+            //5.Lopping
+            foreach(object x in arrayList)
+            {
+                //int third = int(x) we can convert the datatype here
+                Console.WriteLine(x);
+            }
+
+            //var x=10;
+          //x = "hello";   //can't write Like this
+
+            //object obj = 10;
+           //obj = "hello";  we can write like this
+           //obj.   ->can't add method
+
+
+
+
 
 
         }
