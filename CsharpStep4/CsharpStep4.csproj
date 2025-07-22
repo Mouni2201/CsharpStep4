@@ -49,6 +49,8 @@
     <Compile Include="1.ArrayCode.cs" />
     <Compile Include="2.ArrayAdvanced.cs" />
     <Compile Include="3.ArrayList.cs" />
+    <Compile Include="5.List.cs" />
+    <Compile Include="7.Dictionary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
