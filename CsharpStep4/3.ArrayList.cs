@@ -49,13 +49,19 @@ namespace ArrayListExample
             }
 
             //var x=10;
-          //x = "hello";   //can't write Like this
+            //x = "hello";   //can't write Like this
 
             //object obj = 10;
-           //obj = "hello";  we can write like this
-           //obj.   ->can't add method
+            //obj = "hello";  we can write like this
+            //obj.   ->can't add method
 
-
+            //performance
+            ArrayList arrayList1000times = new ArrayList();
+            for (int i = 0; i < 1000; i++) 
+            {
+                arrayList1000times.Add(i); //objec only create in i
+                //infuture in unboxing wants to print and need chanes boxing to unboxing it causes issues
+            }
 
 
 

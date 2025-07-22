@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ArrayCode.Arrays</StartupObject>
+    <StartupObject>ArrayListExample.ListofArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
