@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ArrayListExample.ListofArray</StartupObject>
+    <StartupObject>TupleNamespace.ExampleTuple</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,13 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.ArrayCode.cs" />
+    <Compile Include="10.Tuple.cs" />
     <Compile Include="2.ArrayAdvanced.cs" />
     <Compile Include="3.ArrayList.cs" />
+    <Compile Include="4.ArrayListAdvanced.cs" />
     <Compile Include="5.List.cs" />
+    <Compile Include="6.ListAdvanced.cs" />
     <Compile Include="7.Dictionary.cs" />
+    <Compile Include="9.HashTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="11.Hashset.cs" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
